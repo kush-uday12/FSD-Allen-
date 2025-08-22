@@ -1,0 +1,24 @@
+npm init / npm init -y
+npm install express / npm i express
+npm uninstall express
+npm install express -g (global installation)
+npm list
+npm list -g
+npm i nodemon -save-dev
+---------------------------------------------
+How To Use EJS
+---------------------------------------------
+npm i ejs -save
+create views folder in application folder
+set view engine in index.js file = app.set('view engine','ejs')
+instead of send use render('viewName')
+
+--------------------------
+How to Add images/stylesheets/javascripts in express project
+--------------------------
+create "public" folder inside application folder
+create "images" folder inside public
+
+
+
+npm i express -formidable
